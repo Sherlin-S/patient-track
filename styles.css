@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+header {
+    background-color: dodgerblue;
+    padding: 16px;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+nav ul {
+    display: flex;
+    gap: 24px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.logo img {
+    height: 50px;
+}
+.homes {
+    text-align: center;
+    padding: 64px 32px;
+    background: linear-gradient(to bottom, dodgerblue, white);
+}
+.homes h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.homes button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.homes button:hover {
+    background-color: seagreen;
+}
+#features, #about, #login {
+    max-width: 1200px;
+    margin: 32px auto;
+    padding: 32px;
+}
+.feature-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    text-align: center;
+}
+.feature-grid div {
+    padding: 16px;
+}
+.feature-grid div:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.feature-grid img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+}
+#login {
+    text-align: center;
+}
+#login button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#login button:hover {
+    background-color: dodgerblue
+}
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: dodgerblue;
+    color: white;
+}
